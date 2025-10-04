@@ -1,0 +1,22 @@
+{
+    "name": "Malik Institute of Computer & Typing",
+    "short_name": "Malik Institute",
+    "description": "Best computer institute in Najafgarh & Dwarka for job-oriented courses like Full Stack, Python, Data Science, Tally & more.",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2346C7",
+    "background_color": "#ffffff",
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/"
+}
