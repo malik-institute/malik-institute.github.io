@@ -1,6 +1,23 @@
-User-Agent: *
-Allow: /
-Disallow: /_next/static/
-Disallow: /_next/image*
+# robots.txt for https://malik-institute.netlify.app/ — SEO-friendly baseline
 
-Sitemap: https://www.hunarseekho.in/sitemap.xml
+User-agent: *
+Allow: /
+
+# Block common private/backend or duplicate paths (adjust if your site uses different paths)
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /search
+
+# If using Next.js or similar frameworks, block internal handlers (uncomment if applicable)
+# Disallow: /_next/static/
+# Disallow: /_next/image
+
+# Point crawlers to your sitemap
+Sitemap: https://malik-institute.netlify.app/sitemap.xml
+
+# Optional host directive
+Host: malik-institute.netlify.app

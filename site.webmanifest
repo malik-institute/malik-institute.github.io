@@ -6,17 +6,39 @@
         {
             "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "/android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "favicon.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon",
+            "purpose": "any"
         }
     ],
     "theme_color": "#2346C7",
     "background_color": "#ffffff",
     "start_url": "/",
     "display": "standalone",
-    "scope": "/"
+    "scope": "/",
+    "id": "https://malik-institute.netlify.app/",
+    "lang": "en-IN"
 }
